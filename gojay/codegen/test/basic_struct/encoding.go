@@ -4,7 +4,7 @@ package basic_struct
 
 import (
 	"database/sql"
-	"github.com/francoispqt/gojay"
+	"github.com/armosec/gojay"
 	"time"
 )
 

@@ -3,9 +3,9 @@ package benchmarks
 import (
 	"testing"
 
+	"github.com/armosec/gojay"
+	"github.com/armosec/gojay/benchmarks"
 	"github.com/buger/jsonparser"
-	"github.com/francoispqt/gojay"
-	"github.com/francoispqt/gojay/benchmarks"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/mailru/easyjson"
 )

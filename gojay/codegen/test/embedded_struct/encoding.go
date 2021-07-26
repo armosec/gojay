@@ -3,7 +3,7 @@
 package embedded_struct
 
 import (
-	"github.com/francoispqt/gojay"
+	"github.com/armosec/gojay"
 	"time"
 )
 

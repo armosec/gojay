@@ -3,7 +3,7 @@
 package pooled_struct
 
 import (
-	"github.com/francoispqt/gojay"
+	"github.com/armosec/gojay"
 	"sync"
 	"time"
 )

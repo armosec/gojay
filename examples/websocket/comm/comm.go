@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/francoispqt/gojay"
+	"github.com/armosec/gojay"
 	"golang.org/x/net/websocket"
 )
 
