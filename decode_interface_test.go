@@ -18,6 +18,12 @@ func TestDecodeInterfaceBasic(t *testing.T) {
 		skipCheckResult bool
 	}{
 		{
+			name:           "string with escape chars",
+			json:           `"kubestructure\\access-control\\anytrack\\anytrack-dev-developer-rolebinding.yaml"`,
+			expectedResult: interface{}(`"kubestructure\\access-control\\anytrack\\anytrack-dev-developer-rolebinding.yaml"`),
+			err:            false,
+		},
+		{
 			name:           "array",
 			json:           `[1,2,3]`,
 			expectedResult: []interface{}([]interface{}{float64(1), float64(2), float64(3)}),
